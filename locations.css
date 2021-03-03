@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.navbar{
+    background-image: linear-gradient( #141518,#2F3138);
+}
+.navbar ul{
+    list-style: none;
+    float: right;
+}
+.navbar ul li{
+    float: left;
+}
+.navbar ul li a{
+    display: block;
+    padding: 20px;
+    font-family:sans-serif;
+}
+.navbar ul li a:hover{
+    background:#EAB122;
+    color: white;
+}
+.logo{
+    width: 150px;
+    margin: 10px;
+}
+body{
+    background-image: radial-gradient(#141518,#2F3138);
+}
+h1{
+    color: white;
+    padding: 150px;
+    font-family: sans-serif;
+    line-height: 60px;
+    letter-spacing: 3px;
+
+}

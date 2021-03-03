@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* Navigation bar */
+.a{
+    color:white;
+    text-decoration: none;
+}
+
+.navbar{
+    background-image: linear-gradient( #141518,#2F3138);
+}
+.navbar ul{
+    list-style: none;
+    float: right;
+}
+.navbar ul li{
+    float: left;
+}
+.navbar ul li a{
+    display: block;
+    padding: 20px;
+    font-family:sans-serif;
+}
+.navbar ul li a:hover{
+    background:#EAB122;
+    color: white;
+}
+.logo{
+    width: 150px;
+    margin: 10px;
+}
+
+/*booking*/
+
+body{
+    background-image: radial-gradient(#141518,#2F3138);
+    font-family: sans-serif;
+
+}
+h1{
+    color: white;
+    padding: 50px;
+}
+.main{
+    background-image: radial-gradient(#2F3138,#141518);
+    border-style: solid;
+    border-color: #EAB122;
+    width: 30%;
+    height: 105%;
+}
+.lable{
+    color: white;
+}
+.detail{
+    padding: 20px;
+}
+h3{
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+}
+.eg{
+    color: #EAB122;
+}
+.input{
+    box-sizing: border-box;
+    width: 350px;
+    padding: 2px;
+}
+.button{
+    padding: 10px;
+    width: 100px;
+    background-color: #EAB122;
+    border: none;
+    border-radius: 5%;
+}
+.button:hover{
+    box-shadow: 2px 2px 2px #EAB122;
+    color: white;
+}
